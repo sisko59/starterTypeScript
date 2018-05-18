@@ -1,0 +1,2 @@
+pour detecter les fichiers de tests ts
+le helper permet d'indiquer l'erreur dans le fichier ts au lieu du js
