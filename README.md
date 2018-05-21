@@ -1,19 +1,16 @@
 # Abstract
 
-I create a simple project to execute TypeScript with Test
+I create a very simple project to execute TypeScript with tests.
 
 # Prerequisite:
 
- - nodejs
- - typescript (tsc)
- - jasmine
+ - [nodejs](nodejs)
+ - typescript (npm install typescript -g)
+ - jasmine (npm install jasmine -g)
 
 # For check prerequisite:
+You should have the version installed.
 ```
-npm install typescript -g
-npm install jasmine -g
-
-
 tsc -v
 jasmine -v
 ```
