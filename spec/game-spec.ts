@@ -10,7 +10,7 @@ describe("Calculate bowling's score", () => {
         expect(game.score()).toEqual(0);
     });
 
-    it("Should be 22", () => {
+    it("Should be 20", () => {
         const game = new Game();
         for (var rollNumber = 0; rollNumber < 20; rollNumber++) {
             game.roll(1);

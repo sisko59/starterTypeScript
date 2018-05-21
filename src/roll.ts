@@ -1,6 +1,6 @@
 export class Roll {
 
-    public pins: number = 0;
+    private pins: number = 0;
 
     constructor(pinsFall:number) {
         this.pins = pinsFall;

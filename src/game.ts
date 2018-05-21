@@ -8,8 +8,8 @@ export class Game {
     }
 
     public score() : number {
-        return this.rolls.length;
-               // .map(rool => rool.pinsFall.length)
-               // .reduce((sum, current) => sum + current);
+        return this.rolls
+                .map(rool => rool.pinsFall())
+                .reduce((sum, current) => sum + current);
     }
 }
